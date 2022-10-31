@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std  ;   
+ 
+template <class D>  
+class imp 
+    {       D x, y  ;   
+           public   :  
+              imp (D a, D b)
+                 {  x=a ; 
+                    y=b ;  
+                     if(x>y)
+                      cout<<x<<" is the biggest of the two "<<endl ;  
+                    else   
+                    cout<<y<<" is the biggest of the two "<<endl ;  
+                 } 
+  ~imp  () { }   
+        
+    } ;  
+    int main()
+     { imp<int>J(5,6);
+     imp<float>L(7.3,3.3);
+     return 0  ;  
+     }  
