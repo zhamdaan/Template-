@@ -1,0 +1,32 @@
+#include<iostream> 
+  using namespace std   ;  
+template<class D> D arith (D x, D y ) 
+    {    cout<<"enter choice  "<<endl<<"1. add"<<endl<<"2. subtract"<<endl<<"3. Multiply "<<endl<<"4. Division "  ; 
+        int choice   ; 
+        cin>>choice ;  
+           D Result  ;  
+           if (choice==1)
+              {  Result=x+y ;  
+                  cout<<Result  ;  
+              }   
+               else if  (choice==2)
+                   {   Result  = x-y ;  
+                       cout<<Result   ;  
+                   } 
+                 else if (choice==3)
+                    {  Result= x*y ;  
+                        cout<<Result ;  
+                    }  
+                      else if  (choice == 4)
+                        { Result =  x/y  ;  
+                           cout<<Result  ;  
+                        } 
+                      int k =   sizeof (D);
+                      cout<<endl<<"size of variable  is "<<k<<endl ; 
+    } 
+    
+    int main  ()   
+      {    arith (5,6) ; 
+            arith (7.0 , 5.3);
+            return 0  ; 
+      }  
