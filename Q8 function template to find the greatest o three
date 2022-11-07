@@ -18,6 +18,6 @@ using namespace std  ;
      }  
 int main() {
    max3 (60,5,2) ;
-
+ max3 (5.5,2.0,4.9);
     return 0;
 }
