@@ -15,11 +15,13 @@ using namespace std  ;
         else if(c>>a&&c>b)
          {  cout<<"the greatest number is "<<c ;  
          }  
+         cout<<endl ; 
      } 
      void max3 (int k)
       {  cout<<endl<<"explicit function , overloading "<<k  ; }
 int main() {
    max3 (60,5,2) ;
+   max3 ('A','b','Z' );
    max3 (1);
     return 0;
 }
