@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std  ;  
+ template <class T>
+ T findsq  (T k )  
+   {   return k*k ; }  
+int main() {
+cout<<findsq (4.00) ;  
+    return 0;
+}
