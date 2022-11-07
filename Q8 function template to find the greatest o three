@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std  ;  
+ template <class T>
+ void max3  (T s,T k , T y)  
+     {   T a,b,c  ;  
+        a=s;
+        k=b;
+        c=y;
+        if (a>b&&a>c)
+         { cout<<"the greatest number is "<<a; 
+         }  
+          else if (b>a&&b>c)
+          { cout<<"the greatest number is   "<<b;  
+          }  
+        else if(c>>a&&c>b)
+         {  cout<<"the greatest number is "<<c ;  
+         }  
+     }  
+int main() {
+   max3 (60,5,2) ;
+
+    return 0;
+}
